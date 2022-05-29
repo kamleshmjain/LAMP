@@ -1,0 +1,7 @@
+---
+mysql_root_password: "pass@123"
+app_user: "ansible"
+http_host: "{{ inventory_hostname }}"
+http_conf: "{{inventory_hostname }}.conf"
+http_port: "80"
+disable_default: true
